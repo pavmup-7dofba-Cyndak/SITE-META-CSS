@@ -1,0 +1,256 @@
+/* ==============================
+   CONFIGURAÇÕES GERAIS
+   ============================== */
+
+body {
+    margin: 0;
+
+    background-color: #fdebeb;
+
+    color: #333333;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ==============================
+   CABEÇALHO
+   ============================== */
+
+header {
+    /* Degradê vermelho */
+    background: linear-gradient(135deg, #a80000, #e60000);
+
+    /* Cor dos textos */
+    color: white;
+
+    /* Centraliza o conteúdo */
+    text-align: center;
+
+    /* Espaçamento interno */
+    padding: 35px 25px;
+
+    /* Bordas arredondadas embaixo */
+    border-radius: 0 0 25px 25px;
+
+    /* Sombra */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+
+    /* Organização */
+    position: relative;
+
+    /* Nada ultrapassa as bordas */
+    overflow: hidden;
+}
+
+
+/* ==============================
+   NOME DA ESCOLA
+   ============================== */
+
+header h1 {
+    margin: 0;
+
+    font-size: 38px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.20);
+}
+
+
+/* ==============================
+   TEXTO DO CABEÇALHO
+   ============================== */
+
+header p {
+    margin: 10px 0 0;
+
+    font-size: 17px;
+
+    letter-spacing: 1px;
+
+    opacity: 0.95;
+}
+
+
+/* ==============================
+   ÁREA PRINCIPAL
+   ============================== */
+
+main {
+    display: flex;
+
+    justify-content: center;
+
+    padding: 40px 20px;
+}
+
+
+/* ==============================
+   CAIXA DE CADASTRO
+   ============================== */
+
+.cadastro {
+    background-color: white;
+
+    width: 100%;
+
+    max-width: 450px;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ==============================
+   TÍTULO DO CADASTRO
+   ============================== */
+
+.cadastro h2 {
+    margin-top: 0;
+
+    text-align: center;
+}
+
+
+/* ==============================
+   DESCRIÇÃO
+   ============================== */
+
+.descricao {
+    text-align: center;
+
+    color: #666666;
+
+    margin-bottom: 25px;
+}
+
+
+/* ==============================
+   FORMULÁRIO
+   ============================== */
+
+form {
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+/* Textos dos campos */
+
+form label {
+    margin-bottom: 6px;
+
+    margin-top: 15px;
+
+    font-weight: bold;
+}
+
+
+/* Campos */
+
+form input,
+form select {
+    padding: 12px;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+
+/* Quando clicar em um campo */
+
+form input:focus,
+form select:focus {
+    border-color: red;
+}
+
+
+/* ==============================
+   BOTÃO
+   ============================== */
+
+button {
+    margin-top: 25px;
+
+    padding: 13px;
+
+    background-color: red;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* Quando passar o mouse no botão */
+
+button:hover {
+    background-color: #cc0000;
+}
+
+
+/* ==============================
+   LOGIN
+   ============================== */
+
+.login {
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #666666;
+}
+
+
+/* Link "Entrar" */
+
+.login a {
+    color: red;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+/* Quando passar o mouse no link */
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+
+/* ==============================
+   RODAPÉ
+   ============================== */
+
+footer {
+    text-align: center;
+
+    padding: 20px;
+
+    color: #777777;
+
+    font-size: 14px;
+}
